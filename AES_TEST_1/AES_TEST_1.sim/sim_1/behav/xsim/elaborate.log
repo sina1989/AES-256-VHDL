@@ -1,0 +1,50 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto e0f3ba9f8d1a4f2f9192f09c9b2201b8 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_1 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot AES_Encryption_tb_behav xil_defaultlib.AES_Encryption_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-1783] select index 30 into current_contents is out of bounds [/wrk/2017.4/nightly/2017_12_15_2086221/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v:2419]
+WARNING: [VRFC 10-1783] select index 62 into current_contents is out of bounds [/wrk/2017.4/nightly/2017_12_15_2086221/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v:2420]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.aes_pkg
+Compiling package unisim.vcomponents
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_output_stage(...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_output_stage(...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(C_FAMILY="zyn...
+Compiling module xil_defaultlib.design_1_blk_mem_gen_0_0
+Compiling architecture structure of entity xil_defaultlib.design_1 [design_1_default]
+Compiling architecture structure of entity xil_defaultlib.design_1_wrapper [design_1_wrapper_default]
+Compiling architecture behavioral of entity xil_defaultlib.sub_bytes [sub_bytes_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_rows [shift_rows_default]
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(C_FAMILY="zyn...
+Compiling module xil_defaultlib.gf_mul_2_LUT_blk_mem_gen_0_0
+Compiling architecture structure of entity xil_defaultlib.gf_mul_2_LUT [gf_mul_2_lut_default]
+Compiling architecture structure of entity xil_defaultlib.gf_mul_2_LUT_wrapper [gf_mul_2_lut_wrapper_default]
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(C_FAMILY="zyn...
+Compiling module xil_defaultlib.gf_mul_3_LUT_blk_mem_gen_0_0
+Compiling architecture structure of entity xil_defaultlib.gf_mul_3_LUT [gf_mul_3_lut_default]
+Compiling architecture structure of entity xil_defaultlib.gf_mul_3_LUT_wrapper [gf_mul_3_lut_wrapper_default]
+Compiling architecture behavioral of entity xil_defaultlib.mix_cols [mix_cols_default]
+Compiling architecture behavioral of entity xil_defaultlib.add_round_key [add_round_key_default]
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(C_FAMILY="zyn...
+Compiling module xil_defaultlib.rcon_LUT_blk_mem_gen_0_0
+Compiling architecture structure of entity xil_defaultlib.rcon_LUT [rcon_lut_default]
+Compiling architecture structure of entity xil_defaultlib.rcon_LUT_wrapper [rcon_lut_wrapper_default]
+Compiling architecture rtl of entity xil_defaultlib.key_expansion [key_expansion_default]
+Compiling architecture behavioral of entity xil_defaultlib.AES_Encryption [aes_encryption_default]
+Compiling architecture behavioral of entity xil_defaultlib.aes_encryption_tb
+Built simulation snapshot AES_Encryption_tb_behav

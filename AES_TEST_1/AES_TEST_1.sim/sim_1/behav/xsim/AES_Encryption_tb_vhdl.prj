@@ -1,0 +1,21 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../AES_TEST_1.ip_user_files/bd/rcon_LUT/sim/rcon_LUT.vhd" \
+"../../../../AES_TEST_1.ip_user_files/bd/design_1/sim/design_1.vhd" \
+"../../../../AES_TEST_1.ip_user_files/bd/gf_mul_3_LUT/sim/gf_mul_3_LUT.vhd" \
+"../../../../AES_TEST_1.ip_user_files/bd/gf_mul_2_LUT/sim/gf_mul_2_LUT.vhd" \
+"../../../../AES_TEST_1.srcs/sources_1/new/aes_pkg.vhd" \
+"../../../../AES_TEST_1.srcs/sources_1/new/AES_Encryption.vhd" \
+"../../../../AES_TEST_1.srcs/sources_1/new/add_round_key.vhd" \
+"../../../../AES_TEST_1.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd" \
+"../../../../AES_TEST_1.srcs/sources_1/imports/hdl/gf_mul_2_LUT_wrapper.vhd" \
+"../../../../AES_TEST_1.srcs/sources_1/imports/hdl/gf_mul_3_LUT_wrapper.vhd" \
+"../../../../AES_TEST_1.srcs/sources_1/new/key_expansion.vhd" \
+"../../../../AES_TEST_1.srcs/sources_1/new/mix_cols.vhd" \
+"../../../../AES_TEST_1.srcs/sources_1/bd/rcon_LUT/hdl/rcon_LUT_wrapper.vhd" \
+"../../../../AES_TEST_1.srcs/sources_1/new/shift_rows.vhd" \
+"../../../../AES_TEST_1.srcs/sources_1/new/sub_bytes.vhd" \
+"../../../../AES_TEST_1.srcs/sim_1/new/AES_Encryption_tb.vhd" \
+
+# Do not sort compile order
+nosort

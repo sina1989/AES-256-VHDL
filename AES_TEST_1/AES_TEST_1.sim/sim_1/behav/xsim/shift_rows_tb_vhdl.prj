@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../AES_TEST_1.srcs/sources_1/new/aes_pkg.vhd" \
+"../../../../AES_TEST_1.srcs/sources_1/new/shift_rows.vhd" \
+"../../../../AES_TEST_1.srcs/sim_1/new/shift_rows_tb.vhd" \
+
+# Do not sort compile order
+nosort

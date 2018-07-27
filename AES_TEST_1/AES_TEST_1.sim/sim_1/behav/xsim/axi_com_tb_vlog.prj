@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../AES_TEST_1.ip_user_files/bd/rcon_LUT/ip/rcon_LUT_blk_mem_gen_0_0/sim/rcon_LUT_blk_mem_gen_0_0.v" \
+"../../../../AES_TEST_1.ip_user_files/bd/design_1/ip/design_1_blk_mem_gen_0_0/sim/design_1_blk_mem_gen_0_0.v" \
+"../../../../AES_TEST_1.ip_user_files/bd/gf_mul_3_LUT/ip/gf_mul_3_LUT_blk_mem_gen_0_0/sim/gf_mul_3_LUT_blk_mem_gen_0_0.v" \
+"../../../../AES_TEST_1.ip_user_files/bd/gf_mul_2_LUT/ip/gf_mul_2_LUT_blk_mem_gen_0_0/sim/gf_mul_2_LUT_blk_mem_gen_0_0.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

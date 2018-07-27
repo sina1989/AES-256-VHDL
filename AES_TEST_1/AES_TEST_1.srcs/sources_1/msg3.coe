@@ -1,0 +1,19 @@
+;MSG3 is -> "gtubilmuhbitirme"
+memory_initialization_radix=16;
+memory_initialization_vector=
+67,
+74,
+75,
+62,
+69,
+6c,
+6d,
+75,
+68,
+62,
+69,
+74,
+69,
+72,
+6d,
+65

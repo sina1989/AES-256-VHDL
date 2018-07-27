@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../bd/gf_mul_2_LUT/sim/gf_mul_2_LUT.vhd" \
+
+nosort
